@@ -31,7 +31,10 @@ public class SignUpController {
 		model.addAttribute("email", signup.getEmail());
 		model.addAttribute("userName", signup.getUserName());
 		model.addAttribute("password", signup.getPassword());
-		
+		model.addAttribute("repeatPassword", signup.getConfirmPassword());
+		model.addAttribute("gender", signup.getGender());
+		model.addAttribute("agreement", signup.isAgreement());
+		System.out.println("Gender " + signup.getGender());
 		return "displayFormData";
 	}
 	

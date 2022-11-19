@@ -7,6 +7,6 @@
 <title>   Welcome to Registration Page</title>
 </head>
 <body>
-<h1> <a href="signup">Click here for Registration</a></h1>
+ <center><a href="signup">Click here for Registration</a></center>
 </body>
 </html>

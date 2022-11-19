@@ -18,16 +18,16 @@
             <td>${lastName}</td>
          </tr>
          <tr>
-            <td>Email:</td>
+            <td>Email Address:</td>
             <td>${email}</td>
          </tr>
          <tr>
-            <td>Username:</td>
+            <td>UserName:</td>
             <td>${userName}</td>
          </tr>
          <tr>
-            <td>Password:</td>
-            <td>${password}</td>
+            <td>Gender:</td>
+            <td>${signup.gender}</td>
          </tr>
       </table>  
 </body>
